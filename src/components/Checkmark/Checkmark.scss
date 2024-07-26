@@ -1,0 +1,11 @@
+$color_success: #09b778;
+
+.checkmark {
+  background-color: $color_success;
+  padding: 5px;
+  box-sizing: content-box;
+  height: 12px;
+  width: 12px;
+  border-radius: 12px;
+  margin-right: 10px;
+}

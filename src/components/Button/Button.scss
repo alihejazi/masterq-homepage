@@ -1,0 +1,44 @@
+.Button {
+  button, a {
+    margin: auto 0 auto auto;
+    background-color: #316aff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  button.cancel, a.cancel {
+    background-color: #f7f7f7;
+    color: #316aff;
+  }
+
+  button.inverse, a.inverse {
+    background-color: white;
+    border: none;
+    outline: 1px solid #316aff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #316aff;
+  }
+
+  button.navy, a.navy {
+    outline: 1px solid rgb(19, 34, 66);
+    background-color: rgb(19, 34, 66);
+  }
+
+  .disabled {
+    outline: 1px solid rgb(218, 218, 218) !important;
+    background-color: rgb(218, 218, 218) !important;
+    &:hover {
+      cursor: default !important;
+    }
+  }
+}

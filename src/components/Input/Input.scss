@@ -1,0 +1,24 @@
+.Input {
+  .inputLabel {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input,
+  select {
+    padding: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+
+    &:focus {
+      outline: 1px solid lightgrey;
+    }
+  }
+
+  select {
+    border-right: 16px solid transparent;
+  }
+}
